@@ -1,8 +1,66 @@
 :root {
-    --heading-background-color: steelblue;
-    --heading-text-color: #333;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
-    --padding: 1rem;
-    --border: 1px solid rgba(0,0,0,0.1)
-
+    --primary-color: #7a6c5d;
+    --background-color: #2a3d45;
+    --text-color: #bcac9b;
+    --accent2-color: #2e0e02;
+    --font-family: 'Afacad Flux', serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Afacad Flux', serif;
+    color: var(--text-color);
+}
+
+.hero { position: relative; }
+
+.hero h1 {
+    position: absolute; 
+    color: var(--text-color);
+    font-family: var(--font-family);
+    top: 20px;
+    left: 40%;
+    background-color: var(--accent2-color);
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero article {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70%;
+    background-color: var(--accent2-color);
+    color: var(--text-color);
+    text-align: center;
+    opacity: 0.8;
+    padding: 1em;
+}
+
+a {
+    color: var(--text-color);
+}
+
+a no-line {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    display: inline;
+    width: 20%;
+    height: auto;
+}
+
+.sociallinks { text-decoration: none; }
