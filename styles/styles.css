@@ -82,7 +82,6 @@ aside img {
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
-    text-align: center;
 }
 
 /* Class Selectors */
